@@ -1,0 +1,152 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	background-color: #03a3df;
+}
+
+.header {
+	overflow: hidden;
+	background-color: #1b447f;
+}
+
+.header img {
+	float: left;
+	padding: 20px;
+	margin: 20px;
+}
+
+.header video {
+	width: 500px;
+	height: 240px;
+}
+
+.header-right {
+	float: right;
+	color: white;
+	margin-right: 20px;
+}
+
+nav {
+	width: 100%;
+	text-align: center
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 30px;
+	width: 100%;
+	background-color: #ecb722;
+}
+
+nav li,
+nav li a {
+	display: inline;
+	text-decoration: none;
+	font-size: 25px;
+	color: #FFFFFF;
+	padding-left: 25px;
+}
+
+nav li a:hover,
+nav li a:active {
+	color: blue;
+}
+
+.flex-container {
+	height: 100%;
+	display: flex;
+	align-items: stretch;
+}
+
+.box {
+	flex: 1;
+	border-radius: 25px;
+	border: 2px solid grey;
+	background: #fafafa;
+}
+
+.container {
+	position: relative;
+	/* Maximum width */
+	margin: 0 auto;
+	/* Center it */
+}
+
+.continer img {
+	float: left;
+	width: 100%;
+}
+
+.container-about {
+	width: 100%;
+	padding: 2px 16px;
+	font-family: 'Arvo', serif;
+	font-size: 20px;
+}
+
+.container-promo {
+	width: 100%;
+	padding: 2px 16px;
+	font-family: 'Arvo', serif;
+	font-size: 20px;
+}
+
+.container-available-classes {
+	width: 100%;
+	padding: 2px 16px;
+	font-family: 'Arvo', serif;
+	font-size: 20px;
+}
+
+.container .content {
+	position: absolute;
+	/* Position the background text */
+	top: 0;
+	/* At the bottom. Use top:0 to append it to the top */
+	background: rgb(0, 0, 0);
+	/* Fallback color */
+	background: rgba(0, 0, 0, 0.5);
+	/* Black background with 0.5 opacity */
+	color: #f1f1f1;
+	/* Grey text */
+	width: 100%;
+	/* Full width */
+	height: 100%;
+}
+
+.fa-home {
+	color: #03a3df;
+	margin: 16px;
+}
+
+.fa-user {
+	color: #03a3df;
+	margin: 16px;
+}
+
+.fa-asterisk {
+	color: #03a3df;
+	margin: 5px;
+}
+
+.left {
+	text-align: left;
+	float: left;
+	padding: 20px;
+	margin: 20px;
+}
+
+.right {
+	float: right;
+	text-align: right;
+	padding: 20px;
+	margin: 20px;
+}
+
+.centered {
+	text-align: center;
+}
