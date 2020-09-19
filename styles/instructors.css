@@ -1,0 +1,61 @@
+.grid-container {
+	display: inline-grid;
+	grid-gap: 50px;
+	grid-template-columns: auto auto auto auto;
+	padding: 10px;
+	margin-left: 100px;
+}
+
+.grid-item {
+	font-size: 30px;
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+	font-family: 'Arvo', serif;
+	color: white;
+}
+
+.card {
+	padding: 10px;
+	width: 400px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	background-color: white;
+	border-radius: 25px;
+	margin: auto;
+	text-align: center;
+	font-family: arial;
+}
+
+.card {
+	padding: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	background-color: white;
+	border-radius: 25px;
+	margin: auto;
+	text-align: center;
+	font-family: arial;
+}
+
+.card h2 {
+	color: black;
+}
+
+.title {
+	color: #ecb722;
+	font-size: 25px;
+	font-family: 'Arvo', serif;
+}
+
+.quote {
+	color: #1b447f;
+	font-size: 25px;
+	font-family: 'Arvo', serif;
+}
+
+a {
+	text-decoration: none;
+	font-size: 22px;
+	color: black;
+}

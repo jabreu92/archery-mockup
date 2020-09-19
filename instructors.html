@@ -3,12 +3,25 @@
    <head>
       <meta charset="utf-8">
       <title>Straight to the Point Archery</title>
+      <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+      <link rel="stylesheet" type="text/css" href="styles/instructors.css">
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+      <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link href='https://fonts.googleapis.com/css?family=Arvo' rel='stylesheet'>
+      <script src="https://kit.fontawesome.com/3a1ca26176.js" crossorigin="anonymous"></script>
    </head>
    <body>
       <header>
          <div class="header">
-            <img src="images/archeryAcademy-logo-color.png" alt="Archery Academy Logo Color" >
-            <div class="location-contact">
+            <img src="images/archeryAcademy-logo-white.png" alt="Archery Academy Logo Color">
+            <video autoplay muted loop>
+               <source src="resources/video.mp4" type="video/mp4">
+            </video>
+            <video autoplay muted loop>
+               <source src="resources/video2.mp4" type="video/mp4">
+            </video>
+            <div class="header-right">
                <h1> LOCATION & CONTACT </h1>
                <h2>Straight to the Point Archery <br>
                   528 Nock Point Ln <br>
@@ -30,79 +43,128 @@
          </nav>
       </header>
       <main>
-         <div class="flexbox">
-            <section>
-               <header>
-                  <h2>Our Instructors </h2>
-               </header>
-               <div class="box">
+         <section>
+            <header>
+               <h2> Our Instructors </h2>
+            </header>
+            <div class="grid-container">
+               <div class="grid-item">
                   <div class="card">
-                     <img src="images/instructor-bio-image1.png" alt="Derek Jenkins Photo">
-                     <h3>Derek Jenkins </h3>
-                     <p> Derek is a Washington native and an experienced outdoorsman with many years hunting, fishing, <br>
-                        skiing, canoeing, archery, shooting and minimalistic camping.His skillful mastery of bushcraft <br>
-                        and wilderness survival knowledge helps define his character. He enjoys handcrafting his own long bows,<br>
-                        flint knapped primitive arrows and making custom leather products.
-                     </p>
-                     <h3>Certification</h3>
-                     <p>Harvard University</p>
-                     <h3>Coaching Bow Styles </h3>
-                     <p>Recurve </p>
-                     <q>My biggest goal is to see archery grow and help its participants to grow with it.</q>
+                     <img src="images/instructor-bio-image1.png" alt="Derek Jenkins" style="width:100%">
+                     <h2>Derek Jenkins</h2>
+                     <p class="title">Certification: </p>
+                     <p>Level 3 Coach</p>
+                     <p class="title">Coaching Bow Styles: </p>
+                     <p>Recurve</p>
+                     <div class="quote">
+                        <p><q>My biggest goal is to see archery grow and <br>
+                           help its participants to grow with it.
+                           </q>
+                        </p>
+                     </div>
+                     <div style="margin: 24px 0;">
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                     </div>
                   </div>
                </div>
-               <div class="box">
+               <div class="grid-item">
                   <div class="card">
-                     <img src="images/instructor-bio-image2.png" alt="Amy Smith Photo">
-                     <h3>Amy Smith </h3>
-                     <p> Amy truly has a passion for archery. She comes from a long line of hunters, fisherman, and trappers of Canada.<br>
-                        Amy  places a strong emphasis on safety and is enthusiastic about teaching. Amy also loves fitness, <br>
-                        and  has been a YMCA group exercise and personal trainer for over 18 years.
-                     </p>
-                     <h3>Certification</h3>
-                     <p>Yale University</p>
-                     <h3>Coaching Bow Styles </h3>
-                     <p>Iterative </p>
-                     <q>Some inspirational queote goes here :) </q>
+                     <img src="images/instructor-bio-image4.png" alt="Nathan Lee" style="width:100%">
+                     <h2>Nathan Lee</h2>
+                     <p class="title">Certification: </p>
+                     <p>Level 1 Coach</p>
+                     <p class="title">Coaching Bow Styles: </p>
+                     <p>Longbow</p>
+                     <div class="quote">
+                        <p><q>My mision is to help develop the talent and <br>
+                           growth of each participants to its fullest
+                           </q>
+                        </p>
+                     </div>
+                     <div style="margin: 24px 0;">
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                     </div>
                   </div>
                </div>
-               <div class="box">
+               <div class="grid-item">
                   <div class="card">
-                     <img src="images/instructor-bio-image4.png" alt="Nathan Lee Photo">
-                     <h3>Nathan Lee</h3>
-                     <p> Nathan is an USA Archery Certified Level 3 NTS – Coach and has been teaching archery since 2009. <br>
-                        He has been interested in archery since he nocked his first arrow while a Boy Scout at Scout camp. <br>
-                        Nathan has many years of experience teaching people of all ages, experience gained as a Martial Arts Instructor and Studio Manager.
-                     </p>
-                     <h3>Certification</h3>
-                     <p>MIT University</p>
-                     <h3>Coaching Bow Styles </h3>
-                     <p>Breadth First Search</p>
-                     <q>Another inspirational quote goes here ;) .</q>
+                     <img src="images/instructor-bio-image2.png" alt="John" style="width:100%">
+                     <h2>Amy Lee</h2>
+                     <p class="title">Certification: </p>
+                     <p>Level 2 Coach</p>
+                     <p class="title">Coaching Bow Styles: </p>
+                     <p>Flex</p>
+                     <div class="quote">
+                        <p><q>As a coach, I want to make the student feel <br>
+                           motivated and have fun while learning the fundamentals.
+                           </q>
+                        </p>
+                     </div>
+                     <div style="margin: 24px 0;">
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                     </div>
                   </div>
                </div>
-            </section>
-         </div>
+               <div class="grid-item">
+                  <div class="card">
+                     <img src="images/instructor-bio-image3.png" alt="John" style="width:100%">
+                     <h2>Giap Nguyen</h2>
+                     <p class="title">Certification: </p>
+                     <p>Level 4 Coach</p>
+                     <p class="title">Coaching Bow Styles: </p>
+                     <p>Compound</p>
+                     <div class="quote">
+                        <p><q>As the guru of the academy, I will teach you the necesary skills to become master archer
+                           in the art of the kung-tsu.
+                           </q>
+                        </p>
+                     </div>
+                     <div style="margin: 24px 0;">
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
       </main>
       <footer>
-         <div class="footer">
-            <img src="images/footerImage.jpg" alt="Footer Image">
-            <ul>
-               <li><a href="./index.html">Footer Link 1</a></li>
-               <li><a href="./index.html">Footer link 2</a></li>
-               <li><a href="./index.html">Footer Link 3</a></li>
-               <li><a href="./index.html">Footer Link 4</a></li>
-               <li><a href="./index.html">Footer Link 5</a></li>
-               <li><a href="./index.html">Footer Link 6</a></li>
-            </ul>
-            <div class="location-contact">
-               <h1> LOCATION & CONTACT </h1>
-               <h2>Straight to the Point Archery <br>
-                  528 Nock Point Ln <br>
-                  Tacoma, WA 98412 <br>
-                  archery-education@example.com<br>
-                  (253)555-1010
-               </h2>
+         <div class="container">
+            <img src="images/footerImage.jpg" alt="footerImage" style="width:100%;">
+            <div class="content">
+               <div class="left">
+                  <img src="images/archeryAcademy-logo-white.png" alt="Archery Academy Logo Color">
+               </div>
+               <div class="right">
+                  <h1> LOCATION & CONTACT </h1>
+                  <h2>Straight to the Point Archery <br>
+                     528 Nock Point Ln <br>
+                     Tacoma, WA 98412 <br>
+                     archery-education@example.com<br>
+                     (253)555-1010
+                  </h2>
+               </div>
+               <div class="center">
+                  <iframe width="1000" height="500" src="https://www.youtube.com/embed/OPrgeyF4mvs?autoplay=1&mute=1&loop=1">
+                  </iframe>
+                  <nav>
+                     <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./instructors.html">Instructors</a></li>
+                        <li><a href="./index.html">Services</a></li>
+                        <li><a href="./index.html">Facilities</a></li>
+                        <li><a href="./index.html">Schedule</a></li>
+                        <li><a href="./index.html">SIGN UP FOR A CLASS !</a></li>
+                     </ul>
+                  </nav>
+               </div>
             </div>
          </div>
       </footer>
